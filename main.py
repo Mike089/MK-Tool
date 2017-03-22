@@ -95,7 +95,7 @@ class Facebook:
             'link': fb_url,
             'caption': 'New set!!',
             'description': description,
-            'picture': 'https://i1.sndcdn.com/avatars-000230326453-yl2mpg-t500x500.jpg'
+            'picture': 'PATH OR URL TO YOUR LOGO/PIC'
         }
         self.graph.put_wall_post(message=title, attachment=attachment)
 
